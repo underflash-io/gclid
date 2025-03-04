@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function storeGclid(gclid) {
         if (gclid) {
+            console.log('found');
             localStorage.setItem("gclid", gclid);
         }
     }
