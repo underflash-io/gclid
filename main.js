@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+    console.log('Script loaded');
+    
     function getGclid() {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get("gclid");
